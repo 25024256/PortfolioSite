@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="CSS/projects.css">
     <link rel="stylesheet" href="CSS/blog.css">
     <link rel="stylesheet" href="CSS/about.css">
+
 </head>
 
 <body>
@@ -28,58 +29,65 @@
     </div>     
     </header>
 
-    <main class="container">
-        <section>
+    <main class="container-main">
+        <section class=" left-column">
             <h2>About Me</h2>
             <p>Hello! I'm Emma, a web developer based in Leiden.<br> 
             Feel free to explore my portfolio and learn more about my work and experiences. 
             </p>
+        
+                <section class="skills-bar-left">
+                    <div class="bar">
+                        <div class="info">
+                            <div>HTML</div>
+                        </div>
+                        <div class="progress-line html"><span></span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <div>CSS</div>
+                        </div>
+                        <div class="progress-line css"><span></span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <div>Java</div>
+                        </div>
+                        <div class="progress-line java"><span></span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <div>JavaScript</div>
+                        </div>
+                        <div class="progress-line javascript"><span></span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <div>Php</div>
+                        </div>
+                        <div class="progress-line php"><span></span>
+                        </div>
+                    </div>
+                </section>
         </section>
-        <div class="skills-bar">
-            <div class="bar">
-                <div class="info">
-                    <div>HTML</div>
-                </div>
-                <div class="progress-line html"><span></span>
-                </div>
-            </div>
 
-             <div class="bar">
-                <div class="info">
-                    <div>CSS</div>
-                </div>
-                <div class="progress-line css"><span></span>
-                </div>
-            </div>
-
-             <div class="bar">
-                <div class="info">
-                    <div>Java</div>
-                </div>
-                <div class="progress-line java"><span></span>
-                </div>
-            </div>
-
-            <div class="bar">
-                <div class="info">
-                    <div>JavaScript</div>
-                </div>
-                <div class="progress-line javascript"><span></span>
-                </div>
-            </div>
-
-            <div class="bar">
-                <div class="info">
-                    <div>Php</div>
-                </div>
-                <div class="progress-line php"><span></span>
-                </div>
-            </div>
-        </div>
+        <aside id="Lofi-container" class="Lofi-player" aria-label="Lofi Music Player">
+            <h2 id="lofi-title">Lofi Music Player</h2>
+            <p id="lofi-description" aria-live="polite">Listen to some relaxing lofi music while you browse my portfolio!</p>
+        </aside>
     </main>
     
     <footer>
         <p>&copy; 2026 Emma van Iterson</p>
     </footer>
+    <script src="JS/api.js"></script>
 </body>
 </html>

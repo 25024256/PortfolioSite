@@ -1,0 +1,8 @@
+input, textarea {
+    border-radius: 15px;
+    padding: 10px; 
+    border: 2px solid #2a552c;
+    font-family: inherit;
+    width: 100%;
+    box-sizing: border-box;
+}

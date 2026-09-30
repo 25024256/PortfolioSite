@@ -15,3 +15,21 @@
     margin-top: 20px;
    
 }
+
+.nav-buttons {
+    border: none;
+    font-family: inherit;
+    background-color: transparent;
+    color: #2a552c;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media(max-width: 1880px){
+    .nav-buttons{
+        flex-direction: column;
+    }
+}

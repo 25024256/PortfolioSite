@@ -28,14 +28,39 @@
     </header>
 
     <main class="container">
-        <section>
-            <h2>Contact</h2>
-            <p>If you would like to get in touch with me, please fill out the contact form. I look forward to hearing from you!</p>
-        </section>
-    </main>
+    <section>
+        <h2>Contact</h2>
+        <p>If you would like to get in touch with me, please fill out the contact form. I look forward to hearing from you!</p>
+        
+        <form id="contact-form" novalidate>
+            <div class="form-group">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" aria-describedby="name-error">
+                <br><span id="name-error" class="error-message" aria-live="polite" style="color: red;"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" aria-describedby="email-error">
+                <br><span id="email-error" class="error-message" aria-live="polite" style="color: red;"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" aria-describedby="message-error"></textarea>
+                <br><span id="message-error" class="error-message" aria-live="polite" style="color: red;"></span>
+            </div>
+            <br>
+            <button type="submit" class="nav-buttons">Send Message</button>
+            
+            <p id="success-message" aria-live="polite" style="color: green; font-weight: bold;"></p>
+        </form>
+    </section>
+</main>
 
     <footer>
         <p>&copy; 2026 Emma van Iterson</p>
     </footer>
+    <script src="../JS/contact.js"></script>
 </body>
 </html>
