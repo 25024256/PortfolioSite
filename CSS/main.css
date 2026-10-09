@@ -2,6 +2,14 @@ body{
     font-family: monospace, sans-serif;
     background-color: #ffffff;
     color: #2a552c;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+main{
+    flex: 1;
 }
 
 .header-inner{

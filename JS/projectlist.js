@@ -45,7 +45,7 @@ function DynamicProjectlist(projectsArray) {
 
         const pElement = document.createElement('p');
         const emElement = document.createElement('em');
-        emElement.textContent = "Last updated: " + project.lastUpdated; // Plusje gebruikt!
+        emElement.textContent = "Last updated: " + project.lastUpdated;
         pElement.appendChild(emElement);
 
         const descElement = document.createElement('p');
