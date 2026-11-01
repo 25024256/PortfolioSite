@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "IoDjX2/zFek=",
+  "dgSpecHash": "TU819X+ShuQ=",
   "success": true,
   "projectFilePath": "C:\\Development\\Projects 26-27\\Jaar 2 Semester 3\\WPFW\\Opdracht 1\\PortfolioAPI\\PortfolioAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\M\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",
     "C:\\Users\\M\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\M\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\10.0.14\\microsoft.aspnetcore.identity.entityframeworkcore.10.0.14.nupkg.sha512",
     "C:\\Users\\M\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.13\\microsoft.aspnetcore.openapi.10.0.13.nupkg.sha512",
     "C:\\Users\\M\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\M\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",

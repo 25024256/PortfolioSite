@@ -167,3 +167,4 @@ C:\Development\Projects 26-27\Jaar 2 Semester 3\WPFW\Opdracht 1\PortfolioAPI\obj
 C:\Development\Projects 26-27\Jaar 2 Semester 3\WPFW\Opdracht 1\PortfolioAPI\obj\Debug\net10.0\PortfolioAPI.pdb
 C:\Development\Projects 26-27\Jaar 2 Semester 3\WPFW\Opdracht 1\PortfolioAPI\obj\Debug\net10.0\PortfolioAPI.genruntimeconfig.cache
 C:\Development\Projects 26-27\Jaar 2 Semester 3\WPFW\Opdracht 1\PortfolioAPI\obj\Debug\net10.0\ref\PortfolioAPI.dll
+C:\Development\Projects 26-27\Jaar 2 Semester 3\WPFW\Opdracht 1\PortfolioAPI\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

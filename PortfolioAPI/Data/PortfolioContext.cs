@@ -1,10 +1,12 @@
 using Microsoft.EntityFrameworkCore;
 using PortfolioAPI.Features.Projects;
 using PortfolioAPI.Features.Blogposts;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace PortfolioAPI.Data;
 
-public class PortfolioContext : DbContext
+public class PortfolioContext : IdentityDbContext <IdentityUser>
 {
     public PortfolioContext(DbContextOptions<PortfolioContext> options) : base(options)
     {
